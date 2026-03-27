@@ -1,0 +1,43 @@
+{
+  "name": "emojifyi-embed",
+  "version": "1.0.0",
+  "description": "Embed EmojiFYI emoji widgets — encoder (8 formats), picker, metadata cards. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "emoji",
+    "unicode",
+    "encoding",
+    "utf8",
+    "html-entity",
+    "emoji-picker",
+    "zwj",
+    "embed",
+    "widget",
+    "emojifyi",
+    "emojifyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "creativefyi"
+  ],
+  "homepage": "https://widget.emojifyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/emojifyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/emojifyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}

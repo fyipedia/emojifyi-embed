@@ -44,7 +44,7 @@ That's it. The widget fetches data from the EmojiFYI API and renders with full s
 | `data-emojifyi` | entity, compare, glossary, guide, search, tooltip, [tools] | required | Widget type |
 | `data-slug` | e.g. "emojis" | — | Entity slug from the EmojiFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, minimal | modern | Widget design style |
+| `data-styleVariant` | modern, minimal | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Emojis..." | Search box placeholder |
 
@@ -68,10 +68,10 @@ That's it. The widget fetches data from the EmojiFYI API and renders with full s
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-emojifyi="entity" data-slug="emojis" data-style="modern"></div>
+<div data-emojifyi="entity" data-slug="emojis" data-styleVariant="modern"></div>
 
 <!-- Minimal — subtle borders, flat design, no gradients -->
-<div data-emojifyi="entity" data-slug="emojis" data-style="minimal"></div>
+<div data-emojifyi="entity" data-slug="emojis" data-styleVariant="minimal"></div>
 ```
 
 ## Web Components (Custom Elements)

@@ -1,6 +1,6 @@
 {
   "name": "emojifyi-embed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Embed EmojiFYI emoji widgets — encoder (8 formats), picker, metadata cards. Zero dependencies, Shadow DOM, 4 themes.",
   "main": "dist/embed.min.js",
   "module": "dist/embed.esm.js",

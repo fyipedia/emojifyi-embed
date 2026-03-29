@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# EmojiFYI Embed Widget
+# Main site: https://emojifyi.com
+# Widget docs: https://widget.emojifyi.com
+# npm: https://www.npmjs.com/package/emojifyi-embed

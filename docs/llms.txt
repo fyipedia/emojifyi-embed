@@ -1,21 +1,52 @@
 # EmojiFYI Embed Widget
 
-> Embeddable EmojiFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> 3,781 emojis, Unicode Emoji 16.0, 8 encodings. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/emojifyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/emojifyi-embed@1/dist/embed.min.js"></script>
+<div data-emojifyi="encoder" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- entity: `data-emojifyi="entity"`
+- glossary: `data-emojifyi="glossary"`
+- guide: `data-emojifyi="guide"`
+- compare: `data-emojifyi="compare"`
+- search: `data-emojifyi="search"`
+- encoder (interactive): `data-emojifyi="encoder"`
+- picker (interactive): `data-emojifyi="picker"`
+- emoji-inline (interactive): `data-emojifyi="emoji-inline"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-emojifyi="encoder" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/emojifyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://emojifyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://emojifyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://emojifyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://emojifyi.com
 - Widget docs: https://widget.emojifyi.com
-- npm: https://www.npmjs.com/package/emojifyi-embed
+- API documentation: https://emojifyi.com/developers/
+- npm package: https://www.npmjs.com/package/emojifyi-embed
 - GitHub: https://github.com/fyipedia/emojifyi-embed
-- API: https://emojifyi.com/developers/
 
-## Creative FYI Widget Family
+## Creative FYI Widget Network
 
 - [ColorFYI Widget](https://widget.colorfyi.com)
 - [FontFYI Widget](https://widget.fontfyi.com)
